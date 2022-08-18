@@ -1,0 +1,15 @@
+.right__container {
+  flex: 50%;
+  background-color: black;
+  height: 100%;
+  display: flex;
+}
+
+.little__bird {
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+
+.big__title {
+  color: white;
+}

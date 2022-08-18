@@ -1,0 +1,12 @@
+@import "screens/leftside.css";
+@import "screens/rightside.css";
+@import "screens/bottomside.css";
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,8 @@
+.left__container {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+}
