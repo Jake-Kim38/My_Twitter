@@ -5,11 +5,110 @@
   display: flex;
 }
 
+.little__box {
+  margin-top: 10px;
+}
+
 .little__bird {
   margin-top: 10vh;
   margin-left: 10vh;
 }
 
-.big__title {
+.title {
+  position: relative;
+  margin-top: 180px;
+  margin-left: -50px;
   color: white;
+}
+
+.title div:first-child {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.title div:last-child {
+  margin-top: 50px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.buttons {
+  margin-left: -50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.buttons button {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 30px;
+  transition: all linear 0.1s;
+}
+
+.check {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.buttons button:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.other__line {
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  color: white;
+}
+
+.other__line > div:first-child {
+  background-color: white;
+  width: 130px;
+  height: 1px;
+  margin-right: 3px;
+  opacity: 0.3;
+}
+
+.other__line > div:last-child {
+  background-color: white;
+  width: 130px;
+  height: 1px;
+  margin-left: 3px;
+  opacity: 0.3;
+}
+
+.explain {
+  margin-top: 5px;
+  font-size: 10.5px;
+  color: rgba(190, 160, 144, 0.6);
+}
+
+.explain a {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.explain a:hover {
+  border-bottom: 2px solid cornflowerblue;
+}
+
+.bottom__line {
+  margin-top: 100px;
+}
+
+.bottom__line div:first-child {
+  font-weight: 600;
+}
+
+.login {
+  background-color: black;
+  color: cornflowerblue;
+  border: 1px solid gray;
 }
